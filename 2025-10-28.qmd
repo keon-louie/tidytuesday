@@ -2,9 +2,11 @@
 title: "Selected British Literary Prizes (1990-2022)"
 name: Keon Louie
 date: October 30, 2025
-output: github_document
+output: 
+  html-document:
+    self_contained: true
 ---
-
+TEST 123, please workkk!!!
 ```{r}
 echo = TRUE
 eval = TRUE
