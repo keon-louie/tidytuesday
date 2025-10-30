@@ -1,28 +1,30 @@
 ---
-title: Selected British Literary Prizes (1990-2022)
+title: "Selected British Literary Prizes (1990-2022)"
 name: Keon Louie
-date: \today
+date: October 30, 2025
+output: github_document
 ---
 
 ```{r}
 echo = TRUE
 eval = TRUE
+#install.packages("rmarkdown")
 
 # install.packages("tidytuesdayR")
 # install.packages("tidyverse")
 library(tidyverse)
 library(tidytuesdayR)
 ```
+
 Import the data
+
 ```{r}
 tuesdata <- tidytuesdayR::tt_load('2025-10-28')
 prizes <- tuesdata$prizes
 ```
+
 Glimpse at dataset
+
 ```{r}
 glimpse(prizes)
 ```
-
-
-
-
