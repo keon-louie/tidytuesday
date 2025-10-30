@@ -1,0 +1,28 @@
+---
+title: Selected British Literary Prizes (1990-2022)
+name: Keon Louie
+date: \today
+---
+
+```{r}
+echo = TRUE
+eval = TRUE
+
+# install.packages("tidytuesdayR")
+# install.packages("tidyverse")
+library(tidyverse)
+library(tidytuesdayR)
+```
+Import the data
+```{r}
+tuesdata <- tidytuesdayR::tt_load('2025-10-28')
+prizes <- tuesdata$prizes
+```
+Glimpse at dataset
+```{r}
+glimpse(prizes)
+```
+
+
+
+
