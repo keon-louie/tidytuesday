@@ -2,7 +2,7 @@
 title: "Selected British Literary Prizes (1990-2022)"
 name: Keon Louie
 date: October 30, 2025
-output: 
+format: 
   html-document:
     self_contained: true
 ---
